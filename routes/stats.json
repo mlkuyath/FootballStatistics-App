@@ -1,32 +1,90 @@
-[
-    {
-        "id": 101,
-        "wins": 10,
-        "losses": 3,
-        "points_scored": 7
-    },
-    {
-      "id": 231,
-      "wins": 1,
-      "losses": 10,
-      "points_scored": 2
-    },
-    {
-      "id": 145,
-      "wins": 5,
-      "losses": 1,
-      "points_scored": 14
-    },
-    {
-      "id": 45,
-      "wins": 6,
-      "losses": 2,
-      "points_scored": 2
-    },
-    {
-      "id": 27,
-      "wins": 14,
-      "losses": 26,
-      "points_scored": 28
-    }
+[ {
+  "id": 1,
+  "name": "Magnus Carlsen" ,
+  "country": "Norway",
+  "title": "Grandmaster",
+  "rank": "1" ,
+  "rating": "2863"
+  
+},
+ {
+  "id": 2,
+  "name": "Fabiano Caruana" ,
+  "country": "United States",
+  "title": "Grandmaster",
+  "rank": "2" ,
+  "rating": "2835"
+  
+},
+{
+  "id": 3,
+  "name": "Ding Liren" ,
+  "country": "China",
+  "title": "Grandmaster",
+  "rank": "3" ,
+  "rating": "2791"
+  
+},
+{
+  "id": 4,
+  "name": "Ian Nepomniachtchi" ,
+  "country": "Russia",
+  "title": "Grandmaster",
+  "rank": "4" ,
+  "rating": "2784"
+  
+},
+{
+  "id": 5,
+  "name": "Maxime Vachier-Lagrave" ,
+  "country": "France",
+  "title": "Grandmaster",
+  "rank": "5" ,
+  "rating": "2778"
+  
+},
+{
+  "id": 6,
+  "name": "Alexander Grischuk" ,
+  "country": "Russia",
+  "title": "Grandmaster",
+  "rank": "6" ,
+  "rating": "2777"
+  
+},
+{
+  "id": 7,
+  "name": "Levon Aronian" ,
+  "country": "Armenia",
+  "title": "Grandmaster",
+  "rank": "7" ,
+  "rating": "2773"
+  
+},
+{
+  "id": 8,
+  "name": "Wesley So" ,
+  "country": "United States",
+  "title": "Grandmaster",
+  "rank": "8" ,
+  "rating": "2770"
+  
+},
+{
+  "id": 9,
+  "name": "Teimour Radjabov" ,
+  "country": "Azerbaijan",
+  "title": "Grandmaster",
+  "rank": "9" ,
+  "rating": "2765"
+  
+},
+{
+  "id": 10,
+  "name": "Anish Giri" ,
+  "country": "Netherlands",
+  "title": "Grandmaster",
+  "rank": "10" ,
+  "rating": "2764"
+}
 ]
