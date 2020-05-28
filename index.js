@@ -9,10 +9,6 @@ const NODE_ENV = process.env.NODE_ENV || 'development';
 
 var __dirname = path.resolve(path.dirname(''));
 
-// Import the library:
-var cors = require('cors');
-// Then use it before your routes are set up:
-app.use(cors());
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`listening on ${PORT}`));
