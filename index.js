@@ -9,10 +9,6 @@ const NODE_ENV = process.env.NODE_ENV || 'development';
 var __dirname = path.resolve(path.dirname(''));
 
 
-var cors = require('cors');
-
-app.use(cors());
-
 app.set('port', PORT);
 app.set('env', NODE_ENV);
 app.use(logger('tiny'));
