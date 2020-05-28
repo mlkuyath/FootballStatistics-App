@@ -3,12 +3,12 @@ const bodyParser = require('body-parser');
 const logger = require('morgan');
 const path = require('path');
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3002;
 const NODE_ENV = process.env.NODE_ENV || 'development';
+const cors = require('cors')
+app.use(cors())
 
 var __dirname = path.resolve(path.dirname(''));
-
-var cors = require('cors');
 
 
 app.set('port', PORT);
